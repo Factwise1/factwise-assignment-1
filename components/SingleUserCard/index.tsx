@@ -50,7 +50,6 @@ const SingleUserCard = ({uId, selectedUserId, setSelectedUserId}) => {
     let key;
     let flag = false
     for (key of keys) {
-      console.log("asd", key, reduxUser[key], tempUser[key])
       if (reduxUser[key] !== tempUser[key]) {
         if ( tempUser[key] === "") {
           flag = false
